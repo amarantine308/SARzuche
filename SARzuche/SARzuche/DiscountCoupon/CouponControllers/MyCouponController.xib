@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyCouponController">
+            <connections>
+                <outlet property="m_giveupBtn" destination="AJu-iJ-F01" id="tjG-N4-LZX"/>
+                <outlet property="m_sortBtn" destination="YuM-3q-AKR" id="TgO-bp-VIW"/>
+                <outlet property="segment" destination="W5T-WJ-N3y" id="zxq-qU-FQf"/>
+                <outlet property="table_myCoupon" destination="5mc-JO-VBb" id="Cod-CW-ivq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="W5T-WJ-N3y">
+                    <rect key="frame" x="40" y="70" width="240" height="29"/>
+                    <segments>
+                        <segment title="可用"/>
+                        <segment title="无效"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentControlInMyCoupon:" destination="-1" eventType="valueChanged" id="kFP-GA-RiS"/>
+                    </connections>
+                </segmentedControl>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="5mc-JO-VBb">
+                    <rect key="frame" x="0.0" y="103.99999931639363" width="320" height="331"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Zpw-wh-B5c"/>
+                        <outlet property="delegate" destination="-1" id="LZF-Dk-bba"/>
+                    </connections>
+                </tableView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AJu-iJ-F01">
+                    <rect key="frame" x="0.0" y="434.99999931639366" width="160" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <state key="normal" title="丢弃" backgroundImage="unsubscribe.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="giveupBtnPressed:" destination="-1" eventType="touchUpInside" id="am5-OZ-2Kv"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YuM-3q-AKR">
+                    <rect key="frame" x="160" y="434.99999931639366" width="160" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <state key="normal" title="排序" backgroundImage="modify.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sortBtnPressed:" destination="-1" eventType="touchUpInside" id="1pR-zX-rtb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="modify.png" width="160" height="44"/>
+        <image name="unsubscribe.png" width="160" height="44"/>
+    </resources>
+</document>

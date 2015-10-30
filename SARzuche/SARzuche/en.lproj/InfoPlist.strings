@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist keys */
+
+
+
+// for test
+"test" = "Test";
+"labelString" = "Label string";
+
+// to add app's string
+
+

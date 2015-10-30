@@ -1,0 +1,305 @@
+/* Localized versions of Info.plist keys */
+
+
+// for test
+"test" = "测试";
+"labelString" = "提示信息";
+
+// to add app's string
+"pulldownreload" = "下拉重新加载数据";
+"releasetoreload" = "释放重新加载数据";
+"loading" = "加载中...";
+"pulluploadmore" = "上拉加载更多数据";
+"releaseloadmore" = "释放加载更多数据";
+// alert
+"ok" = "确定";
+"cancel" = "取消";
+"back" = "返回";
+"pleaseWait" = "请稍等...";
+"networkError" = "网络连接失败";
+"requestFailed" = "获取数据失败";
+// 首页
+"HomeTitle" = "SAR享租车";
+"PersonalRental" = "分时租车";
+"CompanyRental" = "企业租车";
+"branches" = "周边网点";
+"MyInfo" = "个人中心";
+"MyCar" = "我的车辆";
+"PersonTip" = "此处开启享受租车生活";
+"MyCarTip" = "此处找车，开门，还车";
+"PushNotification" = "想给你发送推送通知";
+"NotificationTip" = "\"通知\"可能包含提醒、声音和图标标记。可在手机设置中进行配置。";
+"DonotAllow" = "不允许";
+"preferential" = "兑换优惠券";
+"fondNewVersion" = "发现新版本";
+"justamoment" = "稍后再说";
+"updateNow" = "立即更新";
+"versions" = "软件版本";
+"swSize" = "软件大小";
+"updateContent" = "更新内容";
+"networkdonotwork" = "网络不给力点击重试";
+"ad" = "活动";
+// 登录
+"enterPassword" = "请输入密码";
+"enterPhoneNum" = "请输入手机号";
+"forgetPassword" = "忘记密码?";
+"register" = "注册";
+"VIPLogin" = "会员登录";
+"Login" = "登录";
+"RealNameAudit" = "实名认证资料审核中";
+"noCertification" = "您还未进行实名认证，请先完成实名认证。";
+"toCompeleteRealName" = "进行实名认证";
+"realNameFailed" = "实名认证失败，请先完成实名认证。";
+"haveMoreReserved" = "您已预订车辆，无法再次预订";
+"haveReservedPeriod" = "当前时间段内有其他用户已预订";
+"needSelectTimeAgain" = "还车时间需大于取车时间，请重新选择";
+"lessThan1hour" = "租期不得小于1小时";
+"account" = "账号";
+"password" = "密码";
+"serviceTel" = "400-8288-517";
+"checkCurrentTime" = "请注意当前时间";
+"checkCurrentTimeWithStartTime" = "订单开始时间不能早于当前时间";
+//快捷菜单
+"HomePage" = "首页";
+"helper" = "帮助中心";
+//优惠券
+"enterPreferential" = "输入兑换码，不区分大小写";
+"exchangeCodeError" = "兑换码不存在，请检查";
+"convert" = "兑换";
+"getPreferential" = "恭喜您，获得\"%@\"一张";
+"myPreferential" = "我的优惠券";
+"toKnowPreferential" = "了解优惠券";
+"selectCoupon" = "选择优惠券";
+"description" = "描述";
+"convertCodeEmpty" = "兑换码不能为空";
+// 网点
+"nearBranches" = "附近网点";
+"usedBranches" = "常用网点";
+"map" = "地图";
+// 分时租车
+"Nanjing" = "南京";
+"network" = "网点";
+"personalInfo1" = "1.异地还车可能收取调度费.";
+"personalInfo2"= "2.只可选择3天内的订单,当天即算一天.";
+"takeinfo" = "用车信息";
+"giveBackInfo" = "还车信息";
+"toSelectCare" = "去选车";
+"takeCarTime" = "取车时间";
+"giveBackTime" = "还车时间";
+"selectBranches" = "选择网点";
+"noResult" = "未搜到相关结果";
+"noCarForSelecting" = "亲，当前没有合适的车型，请重新填写用车信息";
+"selectcar" = "选择车型";
+"selectCondition" = "用车信息";
+"allCarModel" = "所有车型";
+"toRentCar" = "去订车";
+"rented" = "已租";
+"idle" = "未租";
+"needMoreCash" = "当前账户可用余额不足,请先进行充值";
+"yuanPerHour" = "%@元/时";
+"yuanPerDay" = "%@元/天";
+"takegivebackCar" = "取还车时间";
+"price" = "%@元";
+"perHour" = "/时";
+"perDay" = "/天";
+"writeagain" = "重新填写";
+"noResultsForSearching" = "未搜索到相关结果";
+"needselTime" = "请选择取车/还车时间";
+//订单
+"order" = "订单";
+"priceDetails" = "价格详情";
+"carPriceDeclare" = "车辆价格说明";
+"prePayDetails" = "预付款=时长费+里程费+调度费+押金";
+"workingdayPrice" = "工作日   (%@元/天)";
+"weekendPrice" = "双休日   (%@元/天)";
+"holidayPrice" = "节假日   (%@)(%@元/天)";
+"PeriodOfTime" = "时段";
+"originalPrice" = "原价";
+"promotionPrice" = "促销价";
+"mileagePrice" = "里程费（含燃油费）";
+"schedulingPrice" = "调度费（异地还车）";
+"deposit" = "押金（事故、违章）";
+"forcastDurationCost" = "预估时长费";
+"forcastMileageCost" = "预估里程费";
+"forcastSchedulingCost" = "异地调度费";
+"submitOrder" = "提交订单";
+"costDetails" = "费用明细";
+"submitSuccess" = "提交成功";
+"notGotOrder" = "您还没有订单";
+"morethan3days" = "只可选择3天内的订单";
+"haveRented" = "您当前有正在使用中的订单";
+// 我的订单
+"myOrder" = "我的订单";
+"currentOder" = "当前订单";
+"myOrders" = "历史订单";
+"orderID" = "订单号";
+"orderTime" = "下单时间";
+"orderStatus" = "订单状态";
+"orderRenewTime" = "续订时间";
+"orderUnsubscribeTime" = "退订时间";
+"orderPayedTime" = "结算时间";
+"prePayed" = "预付款";
+"consume" = "消费";
+"orderUnsubscribe" = "退订";
+"confirmUnsubscribe" = "确认退订";
+"orderModify" = "修改";
+"orderRenew" = "续订";
+"requestTicket" = "申请开票";
+"rentAgain" = "再订一次";
+"orderModifyTitle" = "修改订单";
+"orderContinueTitle" = "续订订单";
+"aheadOfTakeTime" = "取车时间只可提前";
+"behindOfGiveback" = "还车时间只可延后";
+"goonMostTime" = "最多可续订时间";
+"goonTime" = "续订时长";
+"goonDeposit" = "续订押金";
+"availableBalance" = "可用金额";
+"orderGiveBackTime" = "订单还车时间";
+"confirmModify" = "确认修改";
+"confirmGoOn" = "确认续订";
+"renewRecord" = "续订记录";
+"renewDateTime" = "续订时间";
+"confirmOrder" = "确认订单";
+"totalCost" = "消费";
+"costFormat" = "%@ 元";
+"prepayCost" = "预付款";
+"orderDetails" = "订单详情";
+// 退订
+"unsubPrompt" = "订单开始前半小时内不可退订，若有特殊情况可电联客服400-8288-517。";
+"confirmUnsubInfo" = "是否确认退订该订单？";
+"unsubscribeSuccess" = "退订成功";
+// 修改
+"modifyPrompt" = "订单开始前半小时内不可修改，若有特殊情况可电联客服400-8288-517。";
+"toRecharge" = "前往充值";
+"rechargeConfirm" = "修改订单需额外支付预付款%@元，当前可用余额为%@元，请先前往充值";
+"modifyConfirm" = "修改订单需额外支付%@元，当前账户可用余额为%@元，是否确认修改？";
+"modifySuccess" = "修改成功";
+//续订
+"renewToRechargeConfirm" = "当前可用余额:%.2f元，可用余额不足，请前往充值";
+"renewSuccess" = "续订成功";
+"orderRenewGivebackTime" = "订单还车时间为:";
+"renewTimeZero" = "续订时长不可为0";
+// 申请开票
+"ticketInfo" = "发票信息";
+"ticketHead" = "发票抬头";
+"enterTicketHead" = "请输入发票抬头";
+"ticketAdrdess" = "收票地址";
+"enterTicketAddress" = "请输入具体地址";
+"oderInfo" = "订单信息";
+"ticketNote" = "开票须知：";
+"Note1" = "1.状态为“结算完成”的订单可申请开票；";
+"Note2" = "2.目前无法开具增值税发票；";
+"Note3" = "3.每张订单只能申请开票一次；（由于用户自身填写错误信息造成的发票无效，无法再次申请开票）";
+"cost" = "消费金额";
+// 订单状态
+"orderStatusUnsubscribe" = "已退订";
+"orderStatusFinished" = "结算完成(押金结算完成)";
+"orderStatusNormal" = "待结算";
+"orderStatusPayed" = "租金已结算(押金未结算)";
+"orderStatusRenew" = "已续订";
+"orderStatusDelay" = "已延时";
+
+"durationConsumption" = "时长费";
+"mileageConsumption" = "里程费";
+"schedulingConsumption" = "调度费";
+"delayConsumption" = "延时费";
+"damageCost" = "车损金";
+"illegalCost" = "违章金";
+"couponDeduction" = "优惠券抵扣";
+"amount" = "共计消费";
+"totalHours" = "共%@小时";
+"totalKilometers" = "共%@公里";
+// 我的车辆
+"honking" = "鸣笛";
+"opendoor" = "开门";
+"closedoor" = "锁门";
+"givebackcar" = "还车";
+"takeBranches" = "取车网点";
+"givebackBranches" = "还车网点";
+"noOrder" = "您当前还没有即将开始的订单";
+"cannotGotPosition" = "无法定位当前位置";
+"noCarNoGiveback" = "还车失败，您还未取车";
+"drivingOpenFailed" = "车辆行驶中，开门失败";
+"drivingCloseFailed" = "车辆行驶中，锁门失败";
+"givebackFailed" = "还车失败";
+"givebackSuccess" = "还车成功";
+"networkDonotWork" = "网络异常，请稍后重试";
+"caculting" = "亲，我们正在卖力的计算费用...";
+"congratulation" = "恭喜您，还车成功！";
+"drovetime" = "行驶时长";
+"droveHHMM" = "%@小时%@分钟";
+"hour" = "%@ 小时";
+"timePrice" = "元/小时";
+"kiloPrice" = "元/公里";
+"drovemileage" = "行驶里程";
+"kiloFomat" = "%@公里";
+"sevendayprompt" = "提示：7天内会结算代缴违章费及车损金（若有违章费未交或车辆维修费用）！";
+"rentalagain" = "继续订车";
+"tohome" = "回首页";
+"balanceforprepay" = "预付款余额";
+"needrecharge" = "待支付";
+"today" = "今天";
+"tommorrow" = "明天";
+"TheDayAfterTomorrow" = "后天";
+// 确认还车
+"coupon" = "券";
+"confirmGiveBack" = "确认还车";
+"selAndConfirmGiveBack" = "选择并确认还车";
+"use" = "用";
+"notuse" = "不用";
+"givebackPrompt" = "小提示:";
+"givebackPrompt1" = "1.还车至订单目的地网点";
+"givebackPrompt2" = "2.请拿好自己的行李物品，并熄火关好车门窗";
+"givebackPrompt3" = "3.还车后，系统会计算本次用车费用，7天后结算押金费用";
+"givebackPrompt4" = "4.发现您有可用的优惠券，是否使用?";
+"totalprepay" = "总预付款";
+"totalcosts" = "总消费";
+"orderduration" = "订单时长";
+"delayTime" = "延时";
+"lastPayed" = "最终扣款";
+"cannottakecar" = "订单开始前5分钟可使用车辆";
+"pleaseRetry" = "网络异常，请重试";
+//"durationConsumption" = "时长费";
+//"mileageConsumption" = "里程费";
+//"schedulingConsumption" = "调度费";
+//"delayConsumption" = "延时费";
+//"drovemileage" = "行驶里程";
+//"couponDeduction" = "优惠券抵扣";
+//"balanceforprepay" = "预付款余额";
+
+// 企业租车
+"enterpriseSubmitSuccess" = "意向提交成功";
+"enterpriseContact" = "客户经理会在1天内联系您";
+"enterpriseRentMore" = "继续选车";
+"enterpriseToHome" = "返回首页";
+"businessIntroduction" = "业务介绍";
+"moreCarPrompt" = "没有您满意或者喜欢的车型? 马上联系客服400-8288-517, 重新选定心仪车型哦!";
+
+// 优惠券
+"bydefaultSort" = "默认排序";
+"bytimeover" = "即将过期";
+"byStyle" = "按类型";
+"durationCoupon" = "时长费抵用券";//1 时长费抵用券
+"mileageCoupon" = "里程费抵用券";//2 里程费抵用券
+"allCoupon" = "时长里程抵用券";//3 时长里程抵用券
+"cashCoupon" = "现金抵用券";//4 现金券
+"couponName" = "优惠券名称:";
+"couponId" = "券号:";
+"couponType" = "优惠券类型:";
+"validDate" = "使用有效期:";
+"usingScope" = "使用范围:";
+"usingCarMode" = "使用车型:";
+"leftNum" = "剩余可用次数:";
+"pleaseSelectCoupon" = "请选择优惠券";
+// 周边网点
+
+
+// 个人中心
+"myCenter" = "个人中心";
+"myCenter_info"="我的资料";
+"myCenter_account"=" 我的钱包";
+"myCenter_detail"="全部流水";
+"myCenter_charge"="充值";
+"myCenter_withdraw"="提现";
+"settlement" = "费用结算";
+"instructionsForCar" = "车辆使用";
